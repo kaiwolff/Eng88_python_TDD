@@ -26,7 +26,7 @@ Similarly, in TDD, we write tests for our software first, then focus on passing 
 "test" is an important keyword and is necessary for pytest to recognise functions designed to test 
 
 
-###Writing Tests 
+### Writing Tests 
 
 ```python
 import pytest
@@ -57,3 +57,8 @@ class CalcTest(unittest.TestCase):
 `python -m unittest discover -v` and 
 
 `python -m unittest`. The discover option gives more information. 
+### Test-Driven Development
+
+Running this file's tests will attempt to run the corresponding, and return information on the success or failure of these functions. 
+
+Having written the tests for the software, we can now write code to satisfy our test cases. In this case, I used the calculator programmed as part of the object-oriented programming exercise to attempt to satisfy the tests. Once the tests are passed, we refactor our code, and design further tests if necessary.
